@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <script>
+        alert('Digite sua notas para que seja feito o calculo da sua média e verificação da sua aprovação')
+        var n = parseFloat(prompt('Digite sua primeira nota'))
+        console.log(n)
+        var n2 = parseFloat(prompt('Digite sua segunda nota'))
+        console.log(n2)
+        alert(`Suas notas registradas foram ${n} e ${n2}`)
+        var media = (n + n2) / 2
+            if(media >= 6){
+               alert('Aprovado') 
+            }
+            else{
+                alert('Reprovado')
+                alert('Sempre de seu máximo, independente do resultado desse ano!')
+            }
+            console.log(media)
+ 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
