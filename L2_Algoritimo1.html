@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades intervalo</title>
+    <script>
+        var valor
+        alert('Informe o seu valor e veja em qual dos seguintes intervalos seu valor se encotra. \nSendo os intervalos: \n([0,25], [25,50], [50,75], [75,100])')
+        valor = parseFloat(prompt('Insira seu valor'))
+        if(valor >= 0.00 && valor <= 25.00){
+            alert('Seu valor se encontra no intervalo de [0,25]')
+            console.log(`O valor ${valor} se encontra no intervalo de [0,25] `)
+        }
+        if(valor >= 25.01 && valor <= 50.00){
+            alert('Seu valor se encontra no intervalo de [25,50]')
+            console.log(`O valor ${valor} se encontra no intervalo de [25,50] `)
+        }
+        if(valor >= 50.01 && valor <= 75.00){
+            alert('Seu valor se encontra no intervalo de [50,75]')
+            console.log(`O valor ${valor} se encontra no intervalo de [50,75] `)
+        }
+        if(valor >= 75.00 && valor <= 100.00){
+            alert('Seu valor se encontra no intervalo de [75,100]')
+            console.log(`O valor ${valor} se encontra no intervalo de [75,100]`)
+        }
+    if(valor > 100.01){
+        alert('Fora de intervalo')
+        console.log(`O valor ${valor} se encontra fora de intervalo`)
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

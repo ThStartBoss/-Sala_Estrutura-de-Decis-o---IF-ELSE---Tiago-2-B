@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade ABC</title>
+    <script>
+        alert('Insira seu salário atual para saber quais foram as alterações após o reajuste de 15%.')
+        var salario = parseFloat(prompt('Digite seu salário atual abaixo:'))
+        console.log(salario)
+        var salario2 = (salario / 100 * 15) + salario
+        let reajuste1 = salario / 100 * 15 
+        var salario3 = (salario / 100 * 12) + salario
+        let reajuste2 = salario / 100 * 12
+        var salario4 = (salario / 100 * 10) + salario
+        let reajuste3 = salario / 100 * 10
+        var salario5 = (salario / 100 * 7) + salario
+        let reajuste4 = salario / 100 * 7
+        var salario6 = (salario / 100 * 4) + salario
+        let reajuste5 = salario / 100 * 4
+        
+
+        
+        if(salario >= 0 && salario <= 400.000){
+            alert(`Seu novo salario é de: ${salario2} \nReajuste ganho: ${reajuste1} \nReajuste em persentual: 15% `)
+        }
+        if(salario >= 400.01 && salario <=800.000){
+            alert(`Seu novo salario é de: ${salario3} \nReajuste ganho: ${reajuste2} \nReajuste em persentual: 12%`)
+        }
+        if(salario >= 800.01 && salario <= 1200.00){
+            alert(`Seu novo salario é de: ${salario4} \nReajuste ganho: ${reajuste3} \nReajuste em persentual: 10%`)
+        }
+        if(salario >= 1200.00 && salario <= 2000.00){
+            alert(`Seu novo salario é de: ${salario5} \nReajuste ganho: ${reajuste4} \nReajuste em persentual: 7%`)
+        }
+        if(salario >= 2000.00){
+            alert(`Seu novo salario é de: ${salario6} \nReajuste ganho: ${reajuste5} \nReajuste em persentual: 4%`)
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

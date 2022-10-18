@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade jogo/h</title>
+    <script>
+        
+        alert('Para descobrir a duração de algum evento basta inserir o horário de inicio e de encerramento abaixo.')
+        var hi = parseInt(prompt('Insira o horario de inicio do jogo:'))
+        var hf = parseInt(prompt('Insira o horario de encerramento do jogo:'))
+        var tt
+        var dia = 24
+        
+
+        if(hf > hi){
+            tt = dia - hi + hf
+            alert(`A duração total do evento foi de ${tt}`, '\nViram um dia no evento!')
+        }
+        if(hf < hi){
+            tt = hf - hi
+            alert(`A duração total do evento foi de ${tt}`)
+        }
+        else if(hf = hi){
+            tt = hf + hi
+            alert(`A duração total do evento foi de ${tt}`, '\O evento durou um dia completo.')
+        }
+       
+   </script>
+</head>
+<body>
+    
+</body>
+</html>

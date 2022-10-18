@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Multiplos</title>
+    <script>
+        var num1, num2
+        alert('Insira 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem "Sao  Multiplos" ou "Nao sao Multiplos"')
+        num1 = parseInt(prompt('digite Seu primeiro número! \nEx: x é multiplo de y? \nDigite o "x"'))
+        num2 = parseInt(prompt('digite Seu segundo número! \nEx: x é multiplo de y? \nDigite o "y"'))
+
+        if (num1 % num2 == 0) {
+            console.log(`${num1} é multiplo de ${num2}`)
+            alert(`${num1} é multiplo de ${num2}`)
+        }
+        if (num1 % num2 != 0) {
+            console.log(`${num1} não é multiplo de ${num2}, ou a ordem dos fatores está errada!`)
+            alert(`${num1} não é multiplo de ${num2}, ou a ordem dos fatores está errada!`)
+        }
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade animais</title>
+    <script>
+            var ossos, classe, alimentacao
+            alert('Para que o algoritimo o animal que você está pensando, siga os passos a seguir e escreva de acordo com a pergunta!')
+        ossos = prompt("Seu animal é um ser 'vertebrado' ou 'invertebrado' ? ")
+        if(ossos == 'vertebrado'){
+        classe = prompt('Seu Animal é uma "ave" o um "mamifero"?')
+            if(classe == 'ave'){
+            alimentacao = prompt('Seu animal tem uma alimentação do tipo "carnivoro" ou "onivoro" ?')
+                if(alimentacao == 'carnivoro'){
+                    alert('Seu animal é uma Aguia!!')
+                    console.log(alimentacao)
+                }
+                if(alimentacao == 'onivoro'){
+                    alert('Seu animal é uma Pomba!!')
+                    console.log(alimentacao)
+                }
+                console.log(classe)
+            }
+            if(classe == 'mamifero'){
+                alimentacao = prompt('Seu animal tem uma alimentação do tipo dos "herbivoros" ou "onivoros" ?')
+                    if(alimentacao == 'herbivoros'){
+                        alert('Seu animal é uma Vaca!!')
+                        console.log(alimentacao)
+                    }
+                    if(alimentacao == 'onivoros'){
+                        alert('Seu ser é um Humano!!')
+                        console.log(alimentacao)
+                    }
+                    console.log(classe)
+            }
+            console.log(ossos)
+        }
+
+        if(ossos == 'invertebrado'){
+        classe = prompt('Seu Animal é um "inseto" o um "anelideo"?')
+            if(classe == 'inseto'){
+            alimentacao = prompt('Seu animal tem uma alimentação do tipo "hematofago" ou "herbivoro" ?')
+                if(alimentacao == 'hematofago'){
+                    alert('Seu animal é uma Pulga!!')
+                    console.log(alimentacao)
+                }
+                if(alimentacao == 'herbivoro'){
+                    alert('Seu animal é uma Lagarta!!')
+                    console.log(alimentacao)
+                }
+                console.log(classe)
+            }
+            if(classe == 'anelideo'){
+            alimentacao = prompt('Seu animal tem uma alimentação do tipo "hematofago" ou "onivoro" ?')
+                if(alimentacao == 'hematofago'){
+                    alert('Seu animal é uma Sanguessuga!!')      
+                    console.log(alimentacao)  
+            }
+                if(alimentacao == 'onivoro'){
+                    alert('Seu animal é uma Minhoca!!')
+                    console.log(alimentacao)
+            }
+                console.log(classe)
+        }
+        console.log(ossos)
+     }
+
+        else{
+            console.log("Resposta incorreta!-!-! Errorr")
+            alert("Animal inválido. Verifique se você respondeu corretamente, e responda apenas com letras minúsculas de acordo com a pergunta.")
+} 
+       
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
